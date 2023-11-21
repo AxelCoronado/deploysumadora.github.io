@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sumadora</title>
+	</head>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+			background: url("sumas.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+
+		footer {
+			margin-top: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+	<body>
+		<form name="form1" id="form1">
+			<h2>Sumador</h2>
+			<label>
+				<b>Número 1</b>
+				<input type="text" id="txtval1" />
+			</label>
+			<br /><br />
+			<label>
+				<b>Número 2</b>
+				<input type="text" id="txtval2" />
+			</label>
+			<br /><br />
+			<label>
+				<b>Resultado</b>
+				<input type="text" name="txtRes" id="txtRes" disabled />
+			</label>
+			<br /><br />
+			<button type="button" onclick="btnSumar()">Sumar</button>
+		</form>
+		<footer>
+			<div>
+				<label>
+					<h2>
+						Esta calculadora fue desarrollada por Axel Ricardo Coronado Sánchez, alumno del ITL en
+						la carrera de ISC.
+					</h2>
+				</label>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js-ejemplos/ejemplo.js"></script>
+	</body>
+</html>
